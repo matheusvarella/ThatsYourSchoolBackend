@@ -10,7 +10,7 @@ public class Student : Entity
     public string Password { get; private set; }
     public ENationality Nationality { get; private set; }
     public ECivilState CivilState { get; private set; }
-    public string Profession { get; private set; }
+    public string Occupation { get; private set; }
     public string Rg { get; private set; }
     public string Cpf { get; private set; }
     public EStudentStatus StudentStatus { get; private set; }
